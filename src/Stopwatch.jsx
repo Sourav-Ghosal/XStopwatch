@@ -32,7 +32,7 @@ export default function Stopwatch(){
     return(
         <div>
             <h1>Stopwatch</h1>
-            <p>Time:{formatTime(time)}</p>
+            <p>Time: {formatTime(time)}</p>
             <div>
                 <button onClick={handleStart}>{timerOn ? 'Stop':"Start"}</button>
                 <button onClick={handleReset}>Reset</button>
